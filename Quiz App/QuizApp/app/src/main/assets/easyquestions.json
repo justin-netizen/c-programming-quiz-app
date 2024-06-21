@@ -1,0 +1,165 @@
+{
+  "easyquestions": [
+
+    {
+      "question": "Which C++ keyword is used to return a value from a function?",
+      "answer1": "A) exit",
+      "answer2": "B) result",
+      "answer3": "C) return",
+      "answer4": "D) back",
+      "correct": "C) return"
+    },
+    {
+      "question": "A statement that checks multiple conditions in sequence?",
+      "answer1": "A) for",
+      "answer2": "B) if",
+      "answer3": "C) else",
+      "answer4": "D) else if",
+      "correct": "D) else if"
+    },
+    {
+      "question": "Which C++ header file should be included to work with strings?",
+      "answer1": "A) iostream",
+      "answer2": "B) string",
+      "answer3": "C) string.h",
+      "answer4": "D) strlib.h",
+      "correct": "B) string"
+    },
+    {
+      "question": "Which C++ keyword is used to allocate memory for an array?",
+      "answer1": "A) allocate",
+      "answer2": "B) new",
+      "answer3": "C) malloc",
+      "answer4": "D) create",
+      "correct": "B) new"
+    },
+    {
+      "question": "What C++ keyword is used to define a variable that can reference an object of a class?",
+      "answer1": "A) link",
+      "answer2": "B) var",
+      "answer3": "C) object",
+      "answer4": "D) reference",
+      "correct": "D) reference"
+    },
+    {
+      "question": "Which C++ keyword is used to define an if statement?",
+      "answer1": "A) if",
+      "answer2": "B) test",
+      "answer3": "C) check",
+      "answer4": "D) verify",
+      "correct": "A) if"
+    },
+    {
+      "question": "What is the correct way to include the content of \"header.h\" in a C++ program?",
+      "answer1": "A) header.h",
+      "answer2": "B) include <header.h>",
+      "answer3": "C) include \"header.h\"",
+      "answer4": "D) #include \"header.h\"",
+      "correct": "D) #include \"header.h\""
+    },
+    {
+      "question": "What is the purpose of the \"else\" statement in C++?",
+      "answer1": "A) To perform an action if the condition is false",
+      "answer2": "B) To repeat a loop",
+      "answer3": "C) To perform an action if the condition is true",
+      "answer4": "D)  To end the program",
+      "correct": "A) To perform an action if the condition is false"
+    },
+    {
+      "question": " What C++ operator is used to access the value at a specific memory address?",
+      "answer1": "A) %",
+      "answer2": "B) +",
+      "answer3": "C) *",
+      "answer4": "D) /",
+      "correct": "C) *"
+    },
+    {
+      "question": "What does the \"cin\" object in C++ stand for?",
+      "answer1": "A) cin input",
+      "answer2": "B) input",
+      "answer3": "C) character input",
+      "answer4": "D) console input",
+      "correct": "D) console input"
+    },
+    {
+      "question": "Which C++ function is used to print a newline?",
+      "answer1": "A) /n",
+      "answer2": "B) std::endl",
+      "answer3": "C) endl()",
+      "answer4": "D) newline;",
+      "correct": "B) std::endl"
+    },
+    {
+      "question": "What C++ keyword is used to exit from a loop prematurely?",
+      "answer1": "A) stop",
+      "answer2": "B) esc",
+      "answer3": "C) exit",
+      "answer4": "D) break",
+      "correct": "D) break"
+    },
+    {
+      "question": "Which data type is used to store true or false values in C++?",
+      "answer1": "A) int",
+      "answer2": "B) logical",
+      "answer3": "C) bool",
+      "answer4": "D) boolean",
+      "correct": "C) bool"
+    },
+    {
+      "question": "Which operator is used for logical AND in C++?",
+      "answer1": "A) &&",
+      "answer2": "B) &",
+      "answer3": "C) &/",
+      "answer4": "D) &++",
+      "correct": "A) &&"
+    },
+    {
+      "question": "Which loop in C++ runs as long as a specified condition is true?",
+      "answer1": "A) for loop",
+      "answer2": "B) do-while loop",
+      "answer3": "C) loop",
+      "answer4": "D) while loop",
+      "correct": "D) while loop"
+    },
+    {
+      "question": "How do you declare a variable called \"age\" of type integer in C++?",
+      "answer1": "A) age int;",
+      "answer2": "B) int age;",
+      "answer3": "C) integer age;",
+      "answer4": "D) var age = int;",
+      "correct": "B) int age;"
+    },
+    {
+      "question": "What does C++ stand for? ",
+      "answer1": "A) Computer Unification Platform",
+      "answer2": "B) Computer Unified Programming+",
+      "answer3": "C) C Plus Plus",
+      "answer4": "D) Common Unity++",
+      "correct": "C) C Plus Plus"
+    },
+    {
+      "question": "Which C++ function is used to read input from the user? ",
+      "answer1": "A) iostream",
+      "answer2": "B) void",
+      "answer3": "C) cout",
+      "answer4": "D) cin",
+      "correct": "D) cin"
+    },
+    {
+      "question": " What is the purpose of the \"cout\" object in C++? ",
+      "answer1": "A) It is used to receive input from the user.",
+      "answer2": "B) It is used to perform arithmetic operations.",
+      "answer3": "C) It is used to declare variables.",
+      "answer4": "D) It is used to display output on the screen.",
+      "correct": "D) It is used to display output on the screen."
+    },
+    {
+      "question": " What is the purpose of the \"cin\" object in C++? ",
+      "answer1": "A) It is used to perform input validation.",
+      "answer2": "B) It is used to perform arithmetic operations.",
+      "answer3": "C) It is used to receive input from the user.",
+      "answer4": "D) It is used to display output on the screen.",
+      "correct": "C) It is used to receive input from the user."
+    }
+  ]
+}

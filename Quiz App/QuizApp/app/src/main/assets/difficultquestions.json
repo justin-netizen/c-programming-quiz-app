@@ -1,0 +1,165 @@
+{
+  "difficultquestions": [
+
+    {
+      "question": "In C++, what does the \"const\" keyword indicate in a member function declaration?",
+      "answer1": "A) Is declared as a constant value.",
+      "answer2": "B) Can only be called from within a non-const object of the class.",
+      "answer3": "C) Can only be called from within a const object of the class.",
+      "answer4": "D) Will not modify the object's data members.",
+      "correct": "D) Will not modify the object's data members."
+    },
+    {
+      "question": "What is the correct way to declare a constant member function \"getValue\" in a class named \"Data\" in C++?",
+      "answer1": "A) const void getValue();",
+      "answer2": "B) void getValue() const;",
+      "answer3": "C) void const getValue();",
+      "answer4": "D) const int getValue();",
+      "correct": "B) void getValue() const;"
+    },
+    {
+      "question": "What is the purpose of the \"std::forward\" function in C++?",
+      "answer1": "A)  It forwards the arguments of a function to the copy constructor.",
+      "answer2": "B) It forwards the arguments of a function to the derived class constructor.\n",
+      "answer3": "C) It forwards the arguments of a function to another function.",
+      "answer4": "D) It forwards the arguments of a function to the base class constructor.",
+      "correct": "C) It forwards the arguments of a function to another function."
+    },
+    {
+      "question": "Which of the following statements is true about smart pointers in C++?",
+      "answer1": "A) Smart pointers cannot be used for dynamic memory allocation.",
+      "answer2": "B) Smart pointers must be deleted explicitly using the delete keyword.",
+      "answer3": "C) Smart pointers are used for raw pointers to fundamental data types only.",
+      "answer4": "D) Smart pointers automatically manage the memory and delete the object when it is no longer needed.",
+      "correct": "D) Smart pointers automatically manage the memory and delete the object when it is no longer needed."
+    },
+    {
+      "question": "What is the purpose of the \"std::nothrow\" argument in the \"new\" operator in C++?",
+      "answer1": "A) It automatically deallocates memory when the object goes out of scope.",
+      "answer2": "B) It allocates memory on the stack instead of the heap.",
+      "answer3": "C) It prevents exceptions from being thrown if memory allocation fails.",
+      "answer4": "D) It initializes the allocated memory with zeros.",
+      "correct": "C) It prevents exceptions from being thrown if memory allocation fails."
+    },
+    {
+      "question": " What is the purpose of the \"override\" keyword in C++?",
+      "answer1": "A) It indicates that a function has been overridden in a derived class.",
+      "answer2": "B) It allows a function to be called from multiple threads simultaneously.",
+      "answer3": "C) It is used to declare a virtual function in a base class.",
+      "answer4": "D) It indicates that a function cannot be overridden.",
+      "correct": "A) It indicates that a function has been overridden in a derived class."
+    },
+    {
+      "question": "What is the purpose of the \"explicit\" keyword in C++ for a single-argument constructor?",
+      "answer1": "A) It prevents the constructor from being called implicitly.",
+      "answer2": "B) It allows implicit conversions for objects of the class.",
+      "answer3": "C) It allows the constructor to be used in aggregate initialization.",
+      "answer4": "D) It enables the constructor to be used with multiple arguments.",
+      "correct": "A) It prevents the constructor from being called implicitly."
+    },
+    {
+      "question": " What is the correct way to declare a destructor as a virtual function in C++?",
+      "answer1": "A) ~virtual ClassName() {}",
+      "answer2": "B) virtual ~ClassName() {} ",
+      "answer3": "C) virtual ClassName::~virtual() {} ",
+      "answer4": "D) virtual ~virtual ClassName() {}",
+      "correct": "B) virtual ~ClassName() {}"
+    },
+    {
+      "question": "What is the purpose of the \"const_iterator\" in C++ when used with containers like vectors?",
+      "answer1": "A) It provides an iterator that allows modification of the elements in the container.",
+      "answer2": "B) It is used to indicate that the container is constant and cannot be modified.",
+      "answer3": "C) It provides an iterator that does not allow modification of the elements in the container.",
+      "answer4": "D) It is used to iterate through the container in a reverse order.",
+      "correct": "C) It provides an iterator that does not allow modification of the elements in the container."
+    },
+    {
+      "question": " What does the \"std::move\" function do in C++?",
+      "answer1": "A) It deallocates dynamic memory.",
+      "answer2": "B) It performs a bitwise copy of the object.",
+      "answer3": "C) It creates a new object with the same value as the given object.",
+      "answer4": "D) It converts an l-value to an r-value.",
+      "correct": "D) It converts an l-value to an r-value."
+    },
+    {
+      "question": "In C++, what is the purpose of the \"using\" keyword?",
+      "answer1": "A)  It allows creating an alias for a data type.",
+      "answer2": "B)  It is used to define a new data type.",
+      "answer3": "C)  It declares a constant variable.",
+      "answer4": "D)  It specifies the access level of class members.",
+      "correct": "A)  It allows creating an alias for a data type."
+    },
+    {
+      "question": " What is the correct way to declare a constant member function in C++?",
+      "answer1": "A) const int functionName() const { /* function implementation / }",
+      "answer2": "B) int functionName() const { /* function implementation */ }",
+      "answer3": "C) int const functionName() { / function implementation / }\n",
+      "answer4": "D) int const functionName() const { / function implementation / }",
+      "correct": "B) int functionName() const { /* function implementation */ }"
+    },
+    {
+      "question": "What is the purpose of the \"friend\" keyword in C++ when used with a class?",
+      "answer1": "A) It indicates that the class can be inherited.",
+      "answer2": "B) It specifies that a function is a friend function of the class.",
+      "answer3": "C) It declares a class as a friend of another class, granting access to its private members.",
+      "answer4": "D) It allows access to private members of other classes.",
+      "correct": "C) It declares a class as a friend of another class, granting access to its private members."
+    },
+    {
+      "question": "What C++ keyword is used to define an if statement with multiple conditions?",
+      "answer1": "A) else",
+      "answer2": "B) multiple",
+      "answer3": "C) or",
+      "answer4": "D) else if",
+      "correct": "D) else if"
+    },
+    {
+      "question": "What is the correct way to dynamically allocate memory for an array of integers in C++?",
+      "answer1": "A) int* array = new int[size];",
+      "answer2": "B) int array = new int[];",
+      "answer3": "C) int array = malloc(sizeof(int));",
+      "answer4": "D) int* array = new int[]",
+      "correct": "A) int* array = new int[size];"
+    },
+    {
+      "question": "Which C++ keyword is used to define a pure virtual function in an abstract base class?",
+      "answer1": "A) pure",
+      "answer2": "B) virtual",
+      "answer3": "C) abstract",
+      "answer4": "D) pure_virtual",
+      "correct": "B) virtual"
+    },
+    {
+      "question": "What is the correct way to handle exceptions in C++?",
+      "answer1": "A) Using the \"exit\" keyword",
+      "answer2": "B) Using the \"break\" keyword",
+      "answer3": "C) Using the \"throw\" keyword",
+      "answer4": "D) Using the \"continue\" keyword",
+      "correct": "C) Using the \"throw\" keyword"
+    },
+    {
+      "question": "Which C++ access modifier allows members of a class to be accessible by other classes derived from it?",
+      "answer1": "A) friend",
+      "answer2": "B) public",
+      "answer3": "C) private",
+      "answer4": "D) protected",
+      "correct": "D) protected"
+    },
+    {
+      "question": "What does the \"sizeof\" operator in C++ return?",
+      "answer1": "A) The size of a variable in bytes.",
+      "answer2": "B) The number of characters in a string.",
+      "answer3": "C) The number of elements in an array.",
+      "answer4": "D) The memory address of a variable.",
+      "correct": "A) The size of a variable in bytes."
+    },
+    {
+      "question": "In C++, what is the purpose of the \"namespace\" keyword?",
+      "answer1": "A) t is used to define a new data type.",
+      "answer2": "B) It is used to group related variables and functions into a named scope.",
+      "answer3": "C) It indicates the start of a new block of code.",
+      "answer4": "D) The memory address of a variable.",
+      "correct": "B) It is used to group related variables and functions into a named scope."
+    }
+  ]
+}
